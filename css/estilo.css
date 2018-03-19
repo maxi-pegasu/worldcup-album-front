@@ -1,8 +1,92 @@
+
 body {
 	
 	background-color:#b6210b;
 	background-size: 100%;
 }
+
+
+div#box-login {
+	background-color: #1d6bab;
+	width: 350px;
+	height: 400px;
+	margin-top: 100px;
+	margin-left: 35%;
+	 
+}
+
+div#box-logo {
+	width: 150px;
+	height: 200px;
+}
+
+div#user {
+	margin-left: 30%;
+	margin-top: 20px;
+}
+
+
+div#pass {
+	margin-left: 30%;
+	margin-top: 30px;
+}
+
+#user input {
+	color: black;
+}
+
+#pass input {
+	color: black;
+}
+
+div #spacebottom {
+	width: 100px;
+	height: 100px;
+}
+
+div#Bottom {
+	margin-left: 150%;
+	margin-top: 40%;
+	cursor: pointer;
+	background-image: url("../img/btn.png");
+
+	}
+
+div#box-logo img {
+	width: 200px;
+	height: 200px;
+	margin-left: 50%;
+	margin-top: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 header,footer{
 	width: 100%;
