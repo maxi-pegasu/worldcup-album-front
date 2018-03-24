@@ -105,6 +105,22 @@ nav ul li {
 	cursor:pointer;
 }
 
+nav ul li#album {
+	display: inline-block;
+	background-color: black;
+	width: 180px;
+	text-align: center;
+	padding: 6px;
+	color:#EEE8AA;
+	cursor:pointer;
+}
+
+
+nav ul li#album:hover{
+	background-color: #EEE8AA;
+	color: black;
+}
+
 nav ul li:first-child{
 	border-radius: 12px 0 0 0;
 }
