@@ -140,20 +140,20 @@ section#s1 {
 }
 
 section#s1 article {
-	float: left;
+	display: inline-block;
 	height: 200px;
 	border: 5px ridge #EEE8AA;
 	width: 258px;
 }
 
 article#Time{
-	margin-left: 35px;
+	margin-left: 10%;
 }
 
 
 
 article#Brasão {
-	margin-left: 110px;
+	margin-left: 7%;
 }
 
 
