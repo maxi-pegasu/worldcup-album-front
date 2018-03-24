@@ -90,9 +90,9 @@ nav {
 nav ul {
 	list-style: none;
 	width: 80%;
-	margin-left: 20%;
+	margin-left: 0;
 	text-align: right;
-	margin-top:-32px;
+	margin-top:-30px;
 }
 
 nav ul li {
@@ -109,83 +109,97 @@ nav ul li:first-child{
 	border-radius: 12px 0 0 0;
 }
 
+nav ul li:last-child{
+	border-radius: 0 12px 0 0;
+}
+
 nav ul li:hover{
-	background-color: white;
-	color: #1d6bab;
+	background-color: black;
+	color: #EEE8AA;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-header,footer{
-	width: 100%;
-	background-color: #1d6bab;
-	min-height: 100px;
-	height: auto;
+/* ----------------- FIGURINHAS DE APRESENTAÇÃO --------------*/
+section#s1 {
+	padding:50px 20px;
 }
 
-
-div#logo {
+section#s1 article {
 	float: left;
-	width: 100px;
-	height: 100px;
-	background-image:url("../img/logo.png");
-	background-size: 100% 100%;
-
+	height: 220px;
+	border: 5px ridge #EEE8AA;
+	width: 370px;
 }
 
-nav {
-	
-	width: 96%;
+article#Time{
+	margin-left: 35px;
 }
 
-nav ul {
-	list-style: none;
-	width: 80%;
-	margin-left: 20%;
-	text-align: right;
+
+
+article#Brasão {
+	margin-left: 110px;
 }
 
-nav ul li {
-	display: inline-block;
-	background-color: #0495F1;
-	width: 180px;
-	text-align: center;
-	padding: 6px;
-	color:white;
-	cursor:pointer;
+
+section#s1 p {
+	color: #EEE8AA;
 }
 
-nav ul li:first-child{
-	border-radius: 12px 0 0 0;
+/* Figurinhas do time */
+
+
+
+div#Figurinhas {
+	float:left;
+	height: 500px;
+	margin-top: 50px;
+	margin-left: -50px; 
 }
 
-nav ul li:hover{
-	background-color: white;
-	color: #0495F1
+
+
+
+section#s2, section#s3, section#s4 {
+	padding:0px 20px;
 }
+
+
+
+
+
+section#s2 article, section#s3 article, section#s4 article {
+	float: left;
+	height: 370px;
+	border: 1px solid #EEE8AA;
+	width: 220px;
+	margin-top: 20px;
+}
+
+article#jogador {
+	margin-left: 100px;
+}
+
+
+section#s2 p, section#s3 p, section#s4 p {
+	color: #EEE8AA;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
